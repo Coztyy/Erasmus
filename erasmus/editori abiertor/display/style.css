@@ -1,0 +1,21 @@
+div {
+    display: inline-block;
+    background: salmon;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+a{
+    display: none;
+    background: skyblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+button{
+    background: slateblue;
+    width: 100px;
+    height: 100px;
+}

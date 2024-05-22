@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px; /* Top 0px Right 0px Bottom 0px Left 0px*/
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0px;
+    color: blue;
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    background: lightsalmon;
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    border: 20px solid silver;
+    border-radius: 10px;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    font-size: 2em;
+    background: lightsalmon;
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    border: 20px solid silver;
+    border-radius: 10px;
+}

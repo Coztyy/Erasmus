@@ -1,0 +1,28 @@
+.container {
+    width: 300px;
+    height: 400px;
+    background: peachpuff;
+    position: relative;
+}
+.item {
+    width: 50px;
+    height: 50px;
+    background: blueviolet;
+    top: 100px;
+    position: absolute;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: lightblue;
+    position: fixed;
+    top: 0px;
+    left:0px
+}
+ul p{
+    background: lightsalmon;
+    position: sticky;
+    top: 65px;
+    left: 0px;
+    z-index: 100;
+}

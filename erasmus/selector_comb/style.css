@@ -1,0 +1,19 @@
+/* selectori descendenti*/
+
+div p {
+    color:lime
+}
+/* Direct son*/ 
+div > div {
+    background: plum;
+}
+
+/*selectarea elementelor adiacente*/
+div + section {
+    background: lightsalmon;
+}
+
+/* Selector general son*/
+div ~ p {
+    color: red;
+} 

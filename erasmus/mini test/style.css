@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.card {
+    width: 300px;
+    height:auto;
+    background: papayawhip;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*Sau cu overflow: hiden*/
+}
+.card p{
+    text-align: center;
+}
+.card p:nth-child(3){
+    color: blueviolet;
+    font-size: 1.5em;
+}

@@ -1,0 +1,26 @@
+/* comentariu */
+
+/* Type of selector */
+/* Selctor universal*/
+* {
+  background-color:#1d90c1;
+}
+h1 {
+    color: #E7091B;
+    background-color: aquamarine;
+}
+/* selector de clase */
+.header2 {
+    font-size: 5em;
+    color: lightblue;
+}
+/* Id selector*/
+#parrafo {
+    color:purple;
+}
+
+/* Atribuire selector*/
+a[href="#"] {
+    font size: 2em;
+    text-decoration: none;
+}
